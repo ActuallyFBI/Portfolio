@@ -322,16 +322,13 @@ button[type="submit"] {
   .container {
     width: 100%;
   }
-
   .heading {
     padding: 20px;
     font-size: 20px;
   }
-
   .card {
     width: 80%;
   }
-
   h1 {
     font-size: 2rem;
   }
@@ -340,5 +337,43 @@ button[type="submit"] {
   }
   .bottomnav a {
     font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+.message h2 {
+  display: none;
+}
+.get-in-touch p {
+  display: none;
+}
+#get {
+  width: 80%;
+  justify-content: flex-end;
+}
+#message{
+  display: flex;
+  position:relative;
+  margin:0 auto;
+  right:300px;
+  bottom: 200px;
+}
+.get-in-touch h2 {
+  position:relative;
+  margin:0 auto;
+  right:600px;
+}
+.box {
+  font-size: large;
+}
+}
+
+@media screen and (max-width: 280px) {
+  form {
+    width: 10vw;
+    max-width: 200px;
+    min-width: 180px;
+    margin: 0 auto;
+    padding-bottom: 2em;
   }
 }

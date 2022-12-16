@@ -348,20 +348,20 @@ button[type="submit"] {
   display: none;
 }
 #get {
-  width: 80%;
+  width: 100%;
   justify-content: flex-end;
 }
 #message{
   display: flex;
-  position:relative;
+  position: relative;
   margin:0 auto;
-  right:300px;
+  right: 100px;
   bottom: 200px;
 }
 .get-in-touch h2 {
   position:relative;
   margin:0 auto;
-  right:600px;
+  right: 400px;
 }
 .box {
   font-size: large;
@@ -375,5 +375,10 @@ button[type="submit"] {
     min-width: 180px;
     margin: 0 auto;
     padding-bottom: 2em;
+  }
+  .message h2 {
+    position:relative;
+    margin:0 auto;
+    left: 20px;
   }
 }

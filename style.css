@@ -47,7 +47,7 @@ letter-spacing: 2.4px;
   color: white;
   float: right;
   padding-right: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
   height: 60px;
 }
 
@@ -98,6 +98,7 @@ font-family: 'Crete Round', serif;
 h2 {
   font-size: 4rem;
   font-family: 'Zilla Slab Highlight', cursive;
+  padding-bottom: 20px;
 }
 
 .about p {
@@ -299,6 +300,14 @@ button[type="submit"] {
   color: white;
 }
 
+.box {
+  display: flex;
+}
+
+.box a {
+  display: inline-block;
+  margin-top: 10px;
+}
 
 @media screen and (max-width: 1000px) {
   .card {
@@ -328,5 +337,8 @@ button[type="submit"] {
   }
   h2 {
     font-size: 3rem;
+  }
+  .bottomnav a {
+    font-size: 11px;
   }
 }

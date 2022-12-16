@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="https://kit.fontawesome.com/4e6500b76f.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Patrick+Hand+SC&family=Poppins:ital,wght@0,400;1,400;1,600;1,800&family=Press+Start+2P&family=Stint+Ultra+Expanded&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,34 +15,34 @@
     <i class="fa-brands fa-github"></i>
     <i class="fa-brands fa-linkedin"></i>
     <div class="hero-text">
-      <h1>Hi, I'm Matt Pearson</h1>
-      <p>And I'm a Front-End Developer from Nottingham</p>
+      <h1><span class="span--1">/*Hello*/</span></br><span class="span--5">.I'm</span> <span class="span--2">{</span></br><span class="span--3">Matt-hew</span>: <span class="span--4">Pearson</span><span class="span--6">px</span>;</br><span class="span--2">}</span></h1>
+      <!--<p>And I'm a Front-End Developer from Nottingham</p>-->
     </br>
       <button>Contact me</button>
     </div>
   </div>
   <!--hero end-->
   <!--about start-->
-<div class="about">
+<div class="about" id="about">
   <h2>About Me</h2>
   <p>I'm a Front End Developer from Nottingham, UK. I have experience in responsive CSS, Javascript and React and have just finished a bootcamp with Purplebeard. I have a masters in Animation from Nottingham Trent University but my passion is coding!</p>
 </div>
 <!--about end-->
 <!--portfolio section start-->
 <div class="container">
-    <div class="heading">
+    <div class="heading" id="portfolio">
       <h2>Portfolio</h2>
     </div>
     <div class="row">
       <div class="card">
-          <a href="#" class="btn1"></a>
+          <a href="https://actuallyfbi.github.io/Parallax/" class="btn1"></a>
         <div class="card-body">
-          <h3>Project 1</h3>
+          <h3>Project 1 - Worms</h3>
           <p>
-          Technologies: CSS, Javascript </br>
-          Summary: A great app
+          Technologies: CSS </br>
+          Summary: A Parallax website for a short-story
           </p>
-          <i id ="github2" class="fa-brands fa-github"></i>
+          <i id="github2" class="fa-brands fa-github"></i>
         </div>
       </div>
       <div class="card">
@@ -52,7 +53,7 @@
           Technologies: CSS, Javascript, React </br>
           Summary: A great app
           </p>
-          <i id ="github2" class="fa-brands fa-github"></i>
+          <i id="github2" class="fa-brands fa-github"></i>
       </div>
     </div>
     <div class="card">
@@ -63,7 +64,7 @@
         Technologies: CSS, Javascript </br>
         Summary: A great app
         </p>
-        <i id ="github2" class="fa-brands fa-github"></i>
+        <i id="github2" class="fa-brands fa-github"></i>
     </div>
   </div>
   <div class="card">
@@ -74,17 +75,23 @@
       Technologies: CSS, Javascript, React </br>
       Summary: A great app
       </p>
-      <i id ="github2" class="fa-brands fa-github"></i>
+      <i id="github2" class="fa-brands fa-github"></i>
   </div>
 </div>
-<div class="get-in-touch">
+  <!--portfolio section end-->
+    <!-- get in touch start-->
+<div class="get-in-touch" id="get">
 <h2>Get in touch</h2></br>
 <p>I would love to collaborate on some coding projects and I am currently looking for a full-time job so please get in touch!</p>
 </br>
-<i id="icon1" class="fa-brands fa-linkedin"></i><p>Matt Pearson</p>
-<i id="icon2" class="fa-brands fa-github"></i><p>ActuallyFBI</p>
+<i id="icon1" class="fa-brands fa-linkedin"></i>
+<p>Matt Pearson</p>
+<i id="icon2" class="fa-brands fa-github"></i>
+<p>ActuallyFBI</p>
 </div>
-<div class="message">
+  <!-- get in touch end-->
+    <!-- send a message start-->
+<div class="message" id="message">
   <h2>Send a message</h2>
   <form action="form-page" method="post">
     <fieldset>
@@ -101,28 +108,24 @@
     <label for="msg">Message:</label>
     <textarea id="msg" name="user_message"></textarea>
   </li>
-  <li>
-  <label for="terms-and-conditions" name="terms-and-conditions">
-    <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
-  </label>
-</li>
+</br>
 <li class="button">
   <button type="submit" value="submit">Submit</button>
 </li>
 </ul>
 </form>
 </fieldset>
+  <!-- send a message end-->
 </div>
     </div>
   </div>
-
 </div>
-  <!--portfolio section end-->
-  <!-- get in touch start-->
-
-  <!-- get in touch end-->
-
-  <!-- start-->
-  <!-- end-->
+  <div class="bottomnav">
+    <a href="#about">About me</a>
+    <a href="#portfolio">Portfolio</a>
+    <!--<a href="#get">Get in touch</a>-->
+    <a href="#message">Send a message</a>
+    <p>copyright 2022</p>
+  </div>
 </body>
 </html>

@@ -1,0 +1,174 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fefefe;
+  font-family: sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+#github2 {
+  color: black;
+  padding: 25px;
+}
+
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/markus-spiske-Skf7HxARcoc-unsplash.jpg");
+
+/* Set a specific height */
+height: 40%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+letter-spacing: 2.4px;
+}
+
+.fa-brands {
+  color: white;
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+button {
+  color: white;
+  background-color: rgb(0, 145, 255);
+  padding: 7px;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.about {
+  width: 60%;
+  margin: 50px auto;
+}
+
+h1 {
+font-size: 7rem;
+text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: 4rem;
+}
+
+.about p {
+  font-size: 2rem;
+}
+
+.container {
+  width: 100%;
+  margin: 50px auto;
+  background-color: black;
+  padding: 30px;
+}
+
+.heading {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 20%;
+  background: #fff;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+  display: block;
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+  padding: 10px 5px;
+  height: 180px;
+}
+
+.btn1 {
+  background: purple;
+}
+.btn2 {
+  background: rgb(51, 154, 91);
+}
+.btn3 {
+  background: rgb(28, 182, 190);
+}
+.btn4 {
+  background: rgb(220, 169, 0);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+}

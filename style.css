@@ -382,3 +382,11 @@ button[type="submit"] {
     left: 20px;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .get-in-touch h2 {
+    position:relative;
+    margin:0 auto;
+    right: 720px;
+  }
+}
